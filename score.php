@@ -20,11 +20,41 @@ if($q1=='' || $q2 =='' || $q3 ==''||$q4==''|| $q5 =='' || $q6 ==''||$q7=='' || $
 	$q10 = $_POST['q10'];
 
 
-if($q1=='' || $q2 =='' || $q3 ==''||$q4==''|| $q5 =='' || $q6 ==''||$q7=='' || $q8 =='' || $q9 ==''||$q10=='') {
+if($q1=='' || $q2 =='' || $q3 ==''||$q4==''|| $q5 =='' || $q6 ==''||$q7=='' || $q8 =='' || $q9 ==''||$q10==''$q11=='' || $q12 =='' || $q13 ==''||$q14==''|| $q15 =='' || $q16 ==''||$q17=='' || $q18 =='' || $q19 ==''||$q20=='') {
 echo <h2>Please answer all questions.</h2>;
 }
 else {
 $score = 0;
+if($q1 == 1) { // 1st option is correct
+$score++;
+}
+if($q2 == 1) { // 1st option is correct
+$score++;
+}
+if($q3 == 2) { // 2nd option is correct
+$score++;
+}
+if($q1 == 2) { // 2nd option is correct
+$score++;
+}
+if($q2 == 1) { // 1st option is correct
+$score++;
+}
+if($q3 == 2) { // 2nd option is correct
+$score++;
+}
+if($q1 == 3) { // 3rd option is correct
+$score++;
+}
+if($q2 == 1) { // 1st option is correct
+$score++;
+}
+if($q3 == 2) { // 2nd option is correct
+$score++;
+}
+if($q3 == 1) { // 1st option is correct
+$score++;
+}
 if($q1 == 1) { // 1st option is correct
 $score++;
 }
